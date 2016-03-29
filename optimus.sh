@@ -10,7 +10,7 @@ f_banner(){
  	 / \ |_) |   |  |\/| | | (_  
  	 \_/ |   |  _|_ |  | |_| __) 
                              
-	by roobixx & Parameter Security"
+	by roobixx"
 	echo
 	echo
 }
