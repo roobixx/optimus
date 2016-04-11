@@ -6,9 +6,9 @@ base_dir=$HOME
 f_banner(){
 	echo
 	echo "
-	  _   _ ___ ___           __ 
- 	 / \ |_) |   |  |\/| | | (_  
- 	 \_/ |   |  _|_ |  | |_| __) 
+	  _   _ ___ ___           __
+ 	 / \ |_) |   |  |\/| | | (_
+ 	 \_/ |   |  _|_ |  | |_| __)
                              
 	by roobixx"
 	echo
@@ -38,7 +38,7 @@ apt-get update >/dev/null 2>&1
 echo
 echo "Updating Packages..."
 apt-get dist-upgrade --assuume-yes >/dev/null 2>&1
-echo 
+echo
 echo "Installing Required Tools..."
 apt-get install git firefox xauth xorg nmap openvpn --assume-yes >/dev/null 2>&1
 echo
@@ -101,7 +101,7 @@ if [ -e "/bin/EyeWitness" ]
 	then echo "Symlink successfully created"
 fi
 	echo "Error creating link"
-f_main	
+f_main
 }
 
 ##############################################################################################################
