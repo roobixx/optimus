@@ -1,0 +1,11 @@
+#!/bin/bash
+
+### Create Project Directory
+function host {
+hostname
+}
+
+sudo mkdir -p $host/{ClientInfo,Reports,Output}
+sudo mkdir -p $host/Reports/{Drafts,Final}
+sudo mkdir -p $host/Output/Internal/{Nessus,Burp,Nmap,EyeWitness,MSFConsole,Screenshots}
+sudo mkdir -p $host/Output/External/{Nessus,Burp,Nmap,EyeWitness,MSFConsole Logs,Screenshots}
